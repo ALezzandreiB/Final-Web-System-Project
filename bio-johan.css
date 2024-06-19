@@ -1,0 +1,261 @@
+@font-face {
+    font-family: 'TNR';
+    font-weight: 50px;
+    src: local('TNR'), url('fonts/OPTITimes-Roman.otf') format('woff');
+    }
+
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background: url('JohanImages/bio\ -\ bg\ -\ johan.png') no-repeat top center;
+    background-size: cover;
+    color: #fff;
+}
+
+.back {
+    position: absolute;
+    font-size: 13px;
+    font-family: 'TNR';
+    text-decoration: underline;
+    color: rgb(250, 246, 246);
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    left: 50px;
+    top: 50px;
+    z-index: 5;
+
+}
+
+.title-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    width: 80%;
+    margin: auto;
+    padding: 100px;
+   
+}
+.h2{
+    position: absolute; 
+    top: 400px; 
+    left: 775px; 
+}
+.h1{
+    position: absolute; 
+    top: 490px; 
+    left: 590px; 
+}
+
+.h3{
+    position: absolute; 
+    top: 630px; 
+    left: 850px; 
+}
+
+.bio-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    width: 80%;
+    margin: auto;
+    padding: 100px;
+   
+}
+
+.name{
+    width: 680px;
+    position: absolute; 
+    left: 155px;
+    top: 900px; 
+    padding: 60px;
+    
+}
+
+.bio{
+    position: absolute;
+    top: 1097px;
+    left: 220px;
+    font-size: 48px;
+    font-family: 'TNR';
+}
+
+.bio-paragraph{
+    position: absolute;
+    top: 1355px;
+    left: 220px;
+    font-size: 20px;
+    font-family: 'TNR';
+    text-align: justify;
+    width: 35%;
+    line-height: 36px;
+}
+
+.profile-img{
+    position: absolute;
+    top: 950px;
+    left: 1000px;
+    
+}
+
+.coderkidz{
+    position: absolute;
+    top: 1570px;
+    left: 220px;;
+    width: 680px;
+    height: auto;
+}
+
+.bio-paragraph2_1{
+    position: absolute;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'TNR';
+    width: 36%;
+    top: 1550px;
+    left: 1000px;
+    line-height: 34px;
+}
+
+.bio-paragraph2_2{
+    position: absolute;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'TNR';
+    width: 36%;
+    top: 1920px;
+    left: 1000px;
+    line-height: 34px;
+}
+
+.bio-paragraph2_3{
+    position: absolute;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'TNR';
+    width: 36%;
+    top: 2190px;
+    left: 1000px;
+    line-height: 34px;
+}
+
+.video-frame-img{
+    position: absolute;
+    position: absolute;
+    top: 2500px;
+    left: 760px;
+    width: 940px;
+    height: 550px;
+}
+
+.video-frame-paragraph{
+    position: absolute;
+    font-size: 20px;
+    font-family: 'TNR';
+    text-align: justify;
+    width: 20%;
+    top: 2500px;
+    left: 240px;
+    line-height: 34px;
+}
+
+.bio-video{
+    position: absolute;
+    left: 828px;
+    top: 2550px;
+    width: 800px;
+    height: auto;
+}
+
+.achievment_1{
+    position: absolute;
+    top: 3275px;
+    left: 385px;
+   
+}
+
+.achievment_2{
+    position: absolute;
+    top: 3680px;
+    left: 690px;
+    
+}
+
+.achievment_3{
+    position: absolute;
+    top: 3450px;
+    left: 1100px;
+  
+}
+
+.I{
+    position: absolute;
+    top: 4600px;
+    left: 535px;
+}
+
+.am{
+    position: absolute;
+    top: 4685px;
+    left: 725px;
+    
+}
+.worthy{
+    position: absolute;
+    top: 4900px;
+    left: 925px;
+}
+
+.of{
+    position: absolute;
+    top: 5110px;
+    left: 625px;
+}
+
+.all{
+    position: absolute;
+    top: 5145px;
+    left: 800px;
+}
+
+.of2{
+    position: absolute;
+    top: 5320px;
+    left: 1180px;
+}
+
+.myDesire{
+    position: absolute;
+    top: 5390px;
+    left: 480px;
+}
+
+.quote_paragraph{
+    position: absolute;
+    font-size: 20px;
+    font-family: 'TNR';
+    text-align: justify;
+    width: 20%;
+    top: 5780px;
+    left: 520px;
+    line-height: 36px;
+}
+
+.footer-paragraph{
+    position: absolute;
+    font-size: 20px;
+    font-family: 'TNR';
+    text-align: justify;
+    width: 45%;
+    top: 6387px;
+    left: 527px;
+    line-height: 36px;
+    padding-bottom: 300px;
+}
+
+

@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'TNR';
+    font-weight: 50px;
+    src: local('TNR'), url('fonts/OPTITimes-Roman.otf') format('woff');
+    }
+
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background: url('JohanImages/Photo\ Album\ -\ Johan\ -\ bg.png') no-repeat top center;
+    background-size: cover;
+    color: #fff;
+}
+.back {
+    position: absolute;
+    font-size: 13px;
+    font-family: 'TNR';
+    text-decoration: underline;
+    color: rgb(255, 253, 253);
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    left: 50px;
+    top: 50px;
+    z-index: 5;
+
+}
+
+.title{
+    position: absolute;
+    left: 300px;
+    top: 100px;
+}
+
+.title-quote{
+    position: relative;
+    left: 400px;
+    top: 190px;
+    color: #000000;
+    font-family: 'TNR';
+    font-size: 20px;
+    text-align: justify;
+}
+
+.audio-mp3{
+    position: absolute;
+    top: 360px;
+    width: 956px;
+    left: 475px;
+}
+
+.img-line1{
+    position: absolute;
+    top: 440px;
+    left:405px;
+}
+
+.img-line2{
+    position: absolute;
+    top: 811px;
+    left:405px;
+}
+
+.img-line3{
+    position: absolute;
+    top: 1180px;
+    left:405px;
+}
+
+.img-line4{
+    position: absolute;
+    top: 1550px;
+    left:405px;
+}
+
+.img-line5{
+    position: absolute;
+    top: 1924px;
+    left:405px;
+}
+
+.img-line6{
+    position: absolute;
+    top: 2300px;
+    left:405px;
+}
+
+.img-line7{
+    position: absolute;
+    top: 2676px;
+    left:405px;
+}
+
+.img-line8{
+    position: absolute;
+    top: 3053px;
+    left:405px;
+}
+
+.img-line9{
+    position: absolute;
+    top: 3423px;
+    left:405px;
+}
+
+.img-line10{
+    position: absolute;
+    top: 3784px;
+    left:405px;
+}
+
+.img-line11{
+    position: absolute;
+    top: 4165px;
+    left:405px;
+}
+
+.img-line12{
+    position: absolute;
+    top: 4536px;
+    left:405px;
+}
+
+.img-line13{
+    position: absolute;
+    top: 4907px;
+    left:405px;
+}
+
+.img-line14{
+    position: absolute;
+    top: 5280px;
+    left:405px;
+}
+
+.img-line15{
+    position: absolute;
+    top: 5649px;
+    left:405px;
+    padding-bottom: 100px;
+}

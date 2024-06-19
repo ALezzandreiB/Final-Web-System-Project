@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'TNR';
+    font-weight: 50px;
+    src: local('TNR'), url('fonts/OPTITimes-Roman.otf') format('woff');
+    }
+
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+    position: relative; 
+    background: white;
+}
+
+.front_page_bg {
+    position: absolute;
+    width: 100%; 
+    height: auto; 
+}
+
+.content {
+    position: relative; 
+    width: 100%;
+    height: 100%;
+}
+
+.back {
+    position: absolute;
+    font-size: 13px;
+    font-family: 'TNR';
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    left: 50px;
+    top: 50px;
+    z-index: 5;
+
+}
+
+.first_page_paragraph1{
+    position: absolute;
+    top: 365px;  
+    left: 427px;  
+    width: 55%; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; 
+    
+}
+
+.first_page_paragraph2{
+    position: absolute;
+    top: 535px;  
+    left: 427px;  
+    width: 55%; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px;
+    
+}
+
+.page2_img {
+    position: absolute;
+    top: 238px;  
+    left: 335px; 
+}
+
+.second_page_paragraph1 {
+    position: absolute;
+    top:410px;  
+    right: 335px;  
+    width: 35%; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; 
+    
+}
+
+.third_page_img1 {
+    position: absolute;
+    top: 238px;  
+    right: 335px; 
+}
+
+.third_paragraph1 {
+    position: absolute;
+    top:415px;  
+    left: 335px;  
+    width: 35%; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; 
+    
+}
+
+.fourth_page_img1 {
+    position: absolute;
+    top: 245px;  
+    right: 335px; 
+}
+
+.fourth_paragraph1 {
+    position: absolute;
+    top:600px;  
+    left: 322px;  
+    width: 66%; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; 
+    
+}
+
+.fourth_paragraph2 {
+    position: absolute;
+    top: 700px; 
+    left: 322px; 
+    width: 66%; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; 
+    
+}
+

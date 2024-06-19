@@ -1,0 +1,431 @@
+@font-face {
+    font-family: 'TNR';
+    font-weight: 50px;
+    src: local('TNR'), url('fonts/OPTITimes-Roman.otf') format('woff');
+    }
+
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+    position: relative; 
+    background: white;
+}
+
+.front_page_bg {
+    position: absolute;
+    width: 100%; 
+    height: auto; 
+}
+
+.content {
+    position: relative; 
+    width: 100%;
+    height: 100%;
+}
+
+.back {
+    position: absolute;
+    font-size: 13px;
+    font-family: 'TNR';
+    text-decoration: underline;
+    color: rgb(250, 246, 246);
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    left: 50px;
+    top: 50px;
+    z-index: 5;
+
+}
+
+.page1_img {
+    position: absolute;
+    top: 350px;  
+    left: 325px; 
+    width: 1289px;  
+    height: 370px; 
+}
+
+.page2_img {
+    position: absolute;
+    top: 358px;  
+    right: 235px; 
+}
+
+.second_paragraph1{
+    position: absolute;
+    top: 330px;  
+    left: 240px;  
+    width: 51%; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; 
+    
+}
+
+.second_paragraph2{
+    position: absolute;
+    top: 465px;  
+    left: 240px;  
+    width: 51%; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; 
+    
+}
+
+.page3_img {
+    position: absolute;
+    top: 365px;  
+    right: 258px; 
+}
+
+.third_paragraph1{
+    position: absolute;
+    top: 338px;  
+    left: 247px;  
+    width: 40%; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; 
+   
+}
+
+.page4_img {
+    position: absolute;
+    top: 285px;  
+    right: 319px; 
+}
+
+.fourth_paragraph1{
+    position: absolute;
+    top: 385px;  
+    left: 285px;  
+    width: 528px; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; 
+    
+}
+.fifth_paragraph1{
+    position: absolute;
+    top: 160px;  
+    left: 285px;  
+    width: 70%; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px;
+   
+}
+.fifth_paragraph2{
+    position: absolute;
+    top: 255px;  
+    left: 285px; 
+    width: 70%; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; 
+    
+}
+.fifth_paragraph3{
+    position: absolute;
+    top: 575px;  
+    left: 285px;  
+    width: 70%; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; 
+   
+}
+.fifth_paragraph4{
+    position: absolute;
+    top: 780px;  
+    left: 285px; 
+    width: 70%; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; 
+    
+}
+
+.page6_img {
+    position: absolute;
+    top: 320px;  
+    right: 380px; 
+}
+
+.sixth_paragraph1{
+    position: absolute;
+    top: 175px;  
+    left: 380px;  
+    width: 60%; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; 
+   
+}
+.sixth_paragraph2{
+    position: absolute;
+    top: 720px; 
+    left: 380px; 
+    width: 60%; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px;
+    
+}
+
+.page7_vid {
+    position: absolute;
+    top: 233px;  
+    right: 380px; 
+}
+
+.seventh_paragraph1{
+    position: absolute;
+    top: 210px;  
+    left: 400px;  
+    width: 32%; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; 
+    
+}
+.seventh_paragraph2{
+    position: absolute;
+    top: 467px;  
+    left: 400px;  
+    width: 32%; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; 
+   
+}
+
+.page8_1_img {
+    position: absolute;
+    top: 450px;  
+    left: 225px; 
+}
+
+.page8_2_img {
+    position: absolute;
+    top: 450px; 
+    left: 610px; 
+}
+
+.page8_3_img {
+    position: absolute;
+    top: 450px;  
+    right: 600px; 
+}
+
+.page8_4_img {
+    position: absolute;
+    top: 450px;  
+    right: 225px; 
+}
+
+.eighth_paragraph1 {
+    position: absolute;
+    top: 100px; 
+    left: 225px;  
+    width: 77%; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; 
+}
+
+.eighth_paragraph2 {
+    position: absolute;
+    top: 800px;  
+    left: 225px;  
+    width: 77%; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; 
+  
+}
+
+.page9_img {
+    position: absolute;
+    top: 650px; 
+    left: 275px; 
+}
+
+.nineth_paragraph1 {
+    position: absolute;
+    top: 125px; 
+    left: 275px;  
+    width: 71%; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; 
+}
+
+.nineth_paragraph2 {
+    position: absolute;
+    top: 230px;  
+    left: 275px;  
+    width: 71%; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; 
+}
+
+.nineth_paragraph3 {
+    position: absolute;
+    top: 420px;  
+    left: 275px;  
+    width: 71%; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; 
+}
+
+.page10_img {
+    position: absolute;
+    top: 200px;  
+    right: 247px; 
+}
+
+.tenth_paragraph1{
+    position: absolute;
+    top: 178px;  
+    left: 250px;  
+    width: 50%; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; 
+}
+
+.tenth_paragraph2 {
+    position: absolute;
+    top: 525px;  
+    left: 250px; 
+    width: 50%; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; 
+}
+
+.tenth_paragraph3 {
+    position: absolute;
+    top: 643px;  
+    left: 250px;  
+    width: 50%; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; 
+}
+
+.tenth_paragraph4 {
+    position: absolute;
+    top: 747px;  
+    left: 255px;  
+    width: 50%; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; 
+}
+
+.page11_img{
+    position: absolute;
+    width: 100%; 
+    height: auto; 
+}
+
+.page12_img {
+    position: absolute;
+    top: 650px; 
+    left: 400px; 
+}
+
+.twelveth_paragraph1{
+    position: absolute;
+    top: 200px; 
+    left: 400px;  
+    width: 59%; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; 
+}
+
+.twelveth_paragraph2{
+    position: absolute;
+    top: 350px;  
+    left: 400px; 
+    width: 59%; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; 
+}
+
+.twelveth_paragraph3{
+    position: absolute;
+    top: 475px;  
+    left: 400px;  
+    width: 59%; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; 
+}
+
+.page13_img1 {
+    position: absolute;
+    top: 320px;  
+    left: 130px; 
+
+}
+
+.page13_img2 {
+    position: absolute;
+    top: 320px;  
+    right: 130px; 
+}
+
+.thirteenth_paragraph1 {
+    position: absolute;
+    top: 300px;  
+    left: 535px;  
+    width: 35%; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; 
+}
+
+.thirteenth_paragraph2 {
+    position: absolute;
+    top: 580px;  
+    left: 535px;  
+    width: 35%; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; 
+}
+
+.page14_img1{
+    position: absolute;
+    width: 100%; 
+    height: auto; 
+}

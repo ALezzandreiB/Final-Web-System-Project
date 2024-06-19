@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+@font-face {
+    font-family: 'TNR';
+    font-weight: 50px;
+    src: local('TNR'), url('fonts/OPTITimes-Roman.otf') format('woff');
+    }
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url('AlezzImages/Alezz\'s\ Contributions\ -\ bg.png') no-repeat top center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.back {
+    position: absolute;
+    font-size: 13px;
+    font-family: 'TNR';
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    left: 50px;
+    top: 50px;
+}
+
+.card1 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    text-align: center;
+    width: 376px;
+    height: 624px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 0.5px solid  #d6ccc4; 
+    top: 230px;
+    left: 300px;
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+.img-container {
+    position: relative;
+    width: 340px; 
+    height: 564px; 
+    margin: auto; 
+    border: 0.5px solid  #d6ccc4; 
+    
+    
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.title {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    font-size: 40px; 
+    font-family: "Lora", serif; 
+    width: calc(100% - 20px);
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+.small-text {
+    font-size: 40px; 
+    font-family: 'Arizonia', cursive; 
+}
+
+.contribution{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 915px;
+    height: 624px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 0.5px solid  #d6ccc4; 
+    top: 230px;
+    left: 700px;
+}
+
+.contribution-container {
+    position: relative;
+    width: 880px; 
+    height: 564px; 
+    margin: auto; 
+    border: 0.5px solid #d6ccc4; 
+}
+
+.title-contri {
+    position: absolute;
+    font-family: 'TNR';
+    font-size: 35px;
+    left: 80px;
+    top: 70px;
+}
+
+.code-list {
+    position: absolute;
+    text-align: left;
+    font-size: 19px;
+    font-family: 'TNR';
+    left: 80px;
+    top: 170px;
+}
+
+.content-list {
+    position: absolute;
+    text-align: left;
+    font-size: 19px;
+    font-family: 'TNR';
+    left: 80px;
+    top: 330px;
+}
+
+
+/*-------- AB CONTRIBUTION DESIGN --------*/
+
+.title-contri-ab{
+    position: absolute;
+    font-family: 'TNR';
+    font-size: 35px;
+    left: 60px;
+    top: 120px;
+}
+
+.code-list-ab {
+    position: absolute;
+    text-align: left;
+    font-size: 19px;
+    font-family: 'TNR';
+    width: 730px;
+    left: 60px;
+    top: 220px;
+}
+
+.content-list-ab {
+    position: absolute;
+    text-align: left;
+    font-size: 19px;
+    font-family: 'TNR';
+    width: 730px;
+    left: 60px;
+    top: 340px;
+}
+
+/*---- JOHAN CONTRIBUTION DESIGN ----*/
+
+.title-contri-johan {
+    position: absolute;
+    font-family: 'TNR';
+    font-size: 35px;
+    left: 80px;
+    top: 20px;
+}
+
+.code-list-johan {
+    position: absolute;
+    text-align: left;
+    font-size: 19px;
+    font-family: 'TNR';
+    width: 730px;
+    left: 80px;
+    top: 130px;
+}
+
+.content-list-johan {
+    position: absolute;
+    text-align: left;
+    font-size: 19px;
+    font-family: 'TNR';
+    width: 730px;
+    left: 80px;
+    top: 360px;
+}

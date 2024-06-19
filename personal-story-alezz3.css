@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'TNR';
+    font-weight: 50px;
+    src: local('TNR'), url('fonts/OPTITimes-Roman.otf') format('woff');
+    }
+
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+    position: relative; 
+    background: white;
+}
+
+.front_page_bg {
+    position: absolute;
+    width: 100%; 
+    height: auto; 
+}
+
+.content {
+    position: relative; 
+    width: 100%;
+    height: 100%;
+}
+
+.back {
+    position: absolute;
+    font-size: 13px;
+    font-family: 'TNR';
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    left: 50px;
+    top: 50px;
+    z-index: 5;
+}
+
+.page1_img {
+    position: absolute;
+    top: 480px;  
+    right: 280px; 
+}
+
+
+.first_page_paragraph1{
+    position: absolute;
+    top: 190px;  
+    left: 360px;  
+    width: 65%; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; 
+    
+}
+
+.second_page_img1 {
+    position: absolute;
+    top: 276px;  
+    right: 200px; 
+}
+
+.second_paragraph1{
+    position: absolute;
+    top: 320px;  
+    left: 200px;  
+    width: 25%; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; 
+    
+}
+
+.third_page_img1 {
+    position: absolute;
+    top: 272px;  
+    left: 390px; 
+}
+
+.third_paragraph1{
+    position: absolute;
+    top: 245px; 
+    right: 390px;  
+    width: 34%; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; 
+    
+}
+
+.third_paragraph2{
+    position: absolute;
+    top: 527px;  
+    right: 390px;  
+    width: 34%; 
+    text-align: justify;
+    font-family: 'TNR'; 
+    font-size: 20px; 
+   
+}

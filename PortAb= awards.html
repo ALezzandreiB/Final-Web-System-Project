@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AB Portfolio</title>
+    <link rel="stylesheet" href="PortAb= awards.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+ 
+
+    <button class="back" onclick="navigateTo('PortAb= 1stpage.html')">Back</button>
+
+    <section class="title-section">
+        <img src="ABImages/Awards Received - title.png" alt="" class="title">
+    </section>
+
+    <section class="button-section">
+        <buton class="works" onclick="navigateTo('https://drive.google.com/drive/folders/1HnDlcWNsvj7OxYEV6iWuIIYA86maTRSL?usp=sharing')"  >View</buton>
+        <buton class="portfolio" onclick="navigateTo('https://www.canva.com/design/DAFixycV3Q4/sCsBU4WBGjgB0WY42DU2bQ/edit?utm_content=DAFixycV3Q4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton')" >View</buton>
+    </section>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+                dynamicBullets: true,
+            },
+        });
+    
+        function navigateTo(page) {
+            window.location.href = page;
+        }
+    
+    </script>
+
+<script>
+    function navigateTo(page) {
+            window.location.href = page;
+        }
+  </script>
+
+</body>
+</html>

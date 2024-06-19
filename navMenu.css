@@ -1,0 +1,528 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+@font-face {
+    font-family: 'TNR';
+    font-weight: 50px;
+    src: local('TNR'), url('fonts/OPTITimes-Roman.otf') format('woff');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url('MainImages/navMenu - bg.png') no-repeat top;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.card1, .card2, .card3 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    text-align: center;
+    width: 376px;
+    height: 688px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 0.5px solid white;
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+
+.card1 {
+    top: 195px;
+    left: 225px;
+}
+
+.card2 {
+    top: 195px;
+    left: 765px;
+}
+
+.card3 {
+    top: 195px;
+    right: 225px;
+}
+
+.card1:hover, .card2:hover, .card3:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.3);
+}
+
+.img-container {
+    position: relative;
+    width: 340px;
+    height: 564px;
+    margin: auto;
+    border: 0.5px solid white;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.title {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    font-size: 40px;
+    font-family: "Lora", serif;
+    width: calc(100% - 20px);
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+.small-text {
+    font-size: 40px;
+    font-family: 'Arizonia', cursive;
+}
+
+.navigation1 {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-top: 0.5px solid white;
+    cursor: pointer;
+    outline: none;
+    font-size: 1em;
+    width: 376px;
+    height: 80px;
+}
+
+.navigation2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-top: 0.5px solid white;
+    cursor: pointer;
+    outline: none;
+    font-size: 1em;
+    width: 376px;
+    height: 80px;
+}
+.navigation3 {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-top: 0.5px solid white;
+    cursor: pointer;
+    outline: none;
+    font-size: 1em;
+    width: 376px;
+    height: 80px;
+}
+
+.navigation:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.arrow {
+    font-size: 1.5em;
+    color: #fff;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.undaunted-contri, .indomitable-contri, .audacious-contri {
+    position: absolute;
+    font-size: 13px;
+    font-family: 'TNR';
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.back {
+    position: absolute;
+    font-size: 13px;
+    font-family: 'TNR';
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    left: 50px;
+    top: 50px;
+}
+
+.undaunted-contri {
+    top: 900px;
+    left: 352px;
+}
+
+.indomitable-contri {
+    top: 900px;
+    left: 895px;
+}
+
+.audacious-contri {
+    top: 900px;
+    right: 350px;
+}
+
+.slider {
+    height: auto;
+    margin: auto;
+    position: relative;
+    width: 88%; 
+    display: grid;
+    place-items: center;
+    top: 1000px;
+    overflow: hidden;
+}
+
+.slide-track {
+    display: flex;
+    width: auto;
+    animation: scroll 58s linear infinite;
+}
+
+.slider:hover .slide-track {
+    animation-play-state: paused;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-50px * 29));
+    }
+}
+
+.slide {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    perspective: 350px;
+}
+
+img {
+    width: auto;
+}
+
+img:hover {
+    transform: translateZ(20px);
+    transition: transform 0.5s;
+}
+
+.slider::before{
+    left: 0;
+    top: 0;
+}
+
+.slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+
+.title-slide{
+    position: absolute;
+    top: 1190px;
+    padding-bottom: 1650px;
+}
+
+/*------- Guesst Book -----*/
+
+.guest-book {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    text-align: center;
+    width: 1320px;
+    height: 724px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 0.5px solid  #d6ccc4; 
+    top: 2050px;
+    left: 290px;
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+.guestbook-container {
+    position: relative;
+    width: 1267px; 
+    height: 670px; 
+    margin: auto; 
+    border: 0.5px solid  #d6ccc4; 
+    
+}
+
+.title-guestbook {
+    position: absolute;
+    font-size: 36px;
+    font-family: 'TNR';
+    top: 10px;
+    left: 535px;
+    
+}
+
+.second-title {
+    position: absolute;
+    font-size: 20px;
+    font-family: 'TNR';
+    top: 80px;
+    left: 520px;
+    
+}
+
+.name-guestbook {
+    position: absolute;
+    font-size: 17px;
+    font-family: 'TNR';
+    color: #d6ccc4;
+    top: 190px;
+    left: 590px;
+    width: 230px;
+    height: 35px;
+    background-color: transparent;
+    border: solid 2px #d6ccc4;
+}
+
+.email-guestbook{
+    position: absolute;
+    font-size: 17px;
+    font-family: 'TNR';
+    color: #d6ccc4;
+    top: 190px;
+    left: 850px;
+    width: 230px;
+    height: 35px;
+    background-color: transparent;
+    border: solid 2px #d6ccc4;
+}
+
+.name-guest-label{
+    position: absolute;
+    top: 152px;
+    left: 590px;
+    font-size: 18px;
+    font-family: 'TNR';
+}
+
+.email-guest-label{
+    position: absolute;
+    top: 152px;
+    left: 850px;
+    font-size: 18px;
+    font-family: 'TNR';
+}
+
+.recipient-guestbook {
+    position: absolute;
+    font-size: 17px;
+    font-family: 'TNR';
+    color: #d6ccc4;
+    top: 290px;
+    left: 590px;
+    width: 503px;
+    height: 35px;
+    background-color: transparent;
+    border: solid 2px #d6ccc4;
+}
+
+.recipient-label {
+    position: absolute;
+    top: 250px;
+    left: 590px;
+    font-size: 18px;
+    font-family: 'TNR';
+}
+
+.titleSub-guestbook{
+    position: absolute;
+    font-size: 17px;
+    font-family: 'TNR';
+    color: #d6ccc4;
+    top: 370px;
+    left: 590px;
+    width: 496px;
+    height: 35px;
+    background-color: transparent;
+    border: solid 2px #d6ccc4;
+}
+
+.titleSub-label {
+    position: absolute;
+    top: 340px;
+    left:  590px;
+    font-size: 18px;
+    font-family: 'TNR';
+}
+
+.message-guestbook{
+    position: absolute;
+    font-size: 17px;
+    font-family: 'TNR';
+    color: #d6ccc4;
+    top: 450px;
+    left: 590px;
+    width: 503px;
+    height: 119px;
+    background-color: transparent;
+    border: solid 2px #d6ccc4;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.message-label {
+    position: absolute;
+    top: 420px;
+    left: 590px;
+    font-size: 18px;
+    font-family: 'TNR';
+}
+
+.submit-guest-book {
+    position: absolute;
+    top: 580px;
+    left: 590px;
+    width: 503px;
+    height: 33px;
+    font-size: 18px;
+    font-family: 'TNR';
+    color: white;
+    background-color: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(10px); 
+    outline: none;
+    border: solid 1px  #d6ccc4;
+    cursor: pointer;
+}
+
+.name-johan {
+    position: absolute;
+    font-size: 18px;
+    font-family: 'TNR';
+    top: 142px;
+    left: 170px;
+}
+
+.phoneNo-johan {
+    position: absolute;
+    font-size: 18px;
+    font-family: 'TNR';
+    top: 215px;
+    left: 170px;
+}
+
+.email-johan {
+    position: absolute;
+    font-size: 18px;
+    font-family: 'TNR';
+    top: 245px;
+    left: 170px;
+}
+
+.name-alezz {
+    position: absolute;
+    font-size: 18px;
+    font-family: 'TNR';
+    top: 315px;
+    left: 170px;
+}
+
+.phoneNo-alezz {
+    position: absolute;
+    font-size: 18px;
+    font-family: 'TNR';
+    top: 380px;
+    left: 170px;
+}
+
+.email-alezz {
+    position: absolute;
+    font-size: 18px;
+    font-family: 'TNR';
+    top: 410px;
+    left: 170px;
+}
+
+.name-ab {
+    position: absolute;
+    font-size: 18px;
+    font-family: 'TNR';
+    top: 480px;
+    left: 170px;
+}
+
+.phoneNo-ab {
+    position: absolute;
+    font-size: 18px;
+    font-family: 'TNR';
+    top: 540px;
+    left: 170px;
+}
+.email-ab {
+    position: absolute;
+    font-size: 18px;
+    font-family: 'TNR';
+    top: 570px;
+    left: 170px;
+}
+
+::-webkit-scrollbar {
+    width: 15px; 
+}
+
+
+::-webkit-scrollbar-track {
+    background: #565656; 
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 6px; 
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+
+::-webkit-scrollbar-corner {
+    background: #383838; 
+}
+
+select option {
+    background-color: rgba(0, 0, 0, 0.9); 
+}
+
+
+
